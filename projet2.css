@@ -1,0 +1,60 @@
+.cadre-externe{
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    background-color: white;
+    border: 3px solid aliceblue;
+    padding: 0;
+    box-sizing:content-box;
+   
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 16px;
+}
+.left-cadre{
+   width: 250px;
+  border-radius: 20px;
+}
+.right-cadre{
+    width: 250px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;   
+}
+.Cart{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(87, 116, 98) ;
+    border-radius: 10px;
+    color: white;
+    width: 230px;
+
+}
+.prix{
+    display: flex;
+    flex-direction: row;
+}
+.big{
+    font-size: 36px;
+    font-weight:bolder;
+    margin: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    color:rgb(87, 116, 98) ;
+}
+h1{
+    margin: 0;
+    font-weight:1000;
+}
+.Cart:hover{
+    background-color: hsl(212, 21%, 14%);
+}
